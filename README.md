@@ -18,32 +18,30 @@ A lightweight Python-based web crawler designed for automated market research. I
 1. Clone this repository:
    ```bash
    git clone [https://github.com/fshahriari/market-research-crawler.git](https://github.com/fshahriari/market-research-crawler.git)
-Navigate to the folder:
-
-Bash
-cd market-research-crawler
-Create and activate a virtual environment:
-
-Bash
-python -m venv venv
-# On Windows:
-.\venv\Scripts\activate
-# On Mac/Linux:
-source venv/bin/activate
-Install dependencies:
-
-Bash
-pip install -r requirements.txt
-Usage
-Run the script from your terminal:
-
-Bash
-python main.py
+2. Navigate to the folder:
+   ```bash
+   cd market-research-crawler
+3. Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   - On Windows:
+   ```bash
+   .\venv\Scripts\activate
+   - On Mac/Linux:
+   ```bash
+   source venv/bin/activate
+4. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+## Usage
+   Run the script from your terminal:
+   ```bash
+   python main.py
 Enter a URL (e.g., https://www.python.org) or a Search Topic (e.g., iPhone 18).
 
 Check the generated results.json file for the findings.
 
-License
-This project is open-source and available for learning purposes.
+## License
+   This project is open-source and available for learning purposes.
 
 Built with ❤️ using Python.
