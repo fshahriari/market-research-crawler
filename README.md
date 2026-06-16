@@ -25,10 +25,8 @@ A lightweight Python-based web crawler designed for automated market research. I
    ```bash
    python -m venv venv
    - On Windows:
-   ```bash
    .\venv\Scripts\activate
    - On Mac/Linux:
-   ```bash
    source venv/bin/activate
 4. Install dependencies:
    ```bash
